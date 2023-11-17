@@ -1,6 +1,6 @@
 import Red from "./components/Red";
 import Blue from "./components/Blue";
-import Homepage from "./components/homepage";
+import Home from "./components/Home";
 import "./App.css";
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
@@ -16,7 +16,7 @@ function App() {
       <div id="main-section">
         <Routes>
           <Route path="/Red" element={<Red />} />
-          <Route path="/" element={<Homepage />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Blue" element={<Blue />} />
         </Routes>
       </div>
